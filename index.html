@@ -1,117 +1,85 @@
-<!DOCTYPE html>
-<html lang="en">
+<!-- ONLY showing modified sections. Apply these replacements inside your original file -->
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Aakash K S — Implementation Engineer</title>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
-  <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: 'DM Sans', sans-serif; background: #f5f5f5; color: #111; line-height: 1.7; }
-    nav { position: fixed; width: 100%; display: flex; justify-content: space-between; padding: 1rem 3rem; background: #fff; border-bottom: 1px solid #ddd; }
-    .nav-links { display: flex; gap: 1.5rem; list-style: none; }
-    section { padding: 6rem 3rem; border-top: 1px solid #ddd; }
-    .hero { padding-top: 8rem; }
-    h1 { font-size: 3rem; }
-    .hero-sub { max-width: 600px; margin-top: 1rem; }
-    .skills-grid, .projects-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 1rem; }
-    .card { border: 1px solid #ddd; padding: 1rem; border-radius: 6px; }
-  </style>
-</head>
+<!-- HERO SUBTEXT -->
+<p class="hero-sub">
+DevOps and Implementation Engineer with hands-on experience in CI/CD pipelines, containerized deployments, Kubernetes operations, and production support in telecom environments. Ensuring reliable, high-availability systems from development to production.
+</p>
 
-<body>
-
-<nav>
-  <div>Aakash K S</div>
-  <ul class="nav-links">
-    <li><a href="#about">About</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#experience">Experience</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
-
-<section class="hero">
-  <h1>Aakash K S<br>Implementation Engineer</h1>
-  <p class="hero-sub">
-    DevOps and Implementation Engineer focused on CI/CD pipelines, containerized deployments, Kubernetes operations, and production support in telecom environments. Ensing reliable, high-availability systems from development to production.
-  </p>
-</section>
-
-<section id="about">
-  <h2>About</h2>
+<!-- ABOUT TEXT -->
+<div class="about-text">
   <p>
-    DevOps and Implementation Engineer with hands-on experience in CI/CD pipelines, containerized deployments, and Kubernetes operations. Skilled in managing production and UAT environments, validating deployments, and ensuring system reliability in telecom platforms.
+  DevOps and Implementation Engineer with hands-on experience in CI/CD pipelines, containerized deployments, and Kubernetes operations. Skilled in managing production and UAT environments, validating deployments, and ensuring system reliability in telecom platforms.
   </p>
   <p>
-    Experienced in automation, monitoring, integration testing, and compliance-driven operations. Focused on reducing post-release issues through structured validation and improving observability in production systems.
+  Experienced in automation, monitoring, integration testing, and compliance-driven operations. Focused on reducing post-release issues through structured validation and improving observability in production systems.
   </p>
-</section>
+</div>
 
-<section id="skills">
-  <h2>Skills</h2>
-  <div class="skills-grid">
-    <div class="card">AWS · Linux · Networking (TCP/IP, VPNs, Firewalls)</div>
-    <div class="card">REST APIs · Postman · SQL Validation</div>
-    <div class="card">Python · Bash · SQL · YAML · JSON</div>
-    <div class="card">Git · GitHub · Jenkins</div>
-    <div class="card">Grafana · Nagios · Monitoring · RCA</div>
-    <div class="card">Docker · Kubernetes</div>
-  </div>
-</section>
+<!-- STATS -->
+<div class="stat-num">1+</div>
+<div class="stat-label">Years experience</div>
 
-<section id="experience">
-  <h2>Experience</h2>
+<div class="stat-num">Multiple</div>
+<div class="stat-label">Deployments handled</div>
 
-  <div>
-    <h3>Implementation Engineer — 6D Technologies</h3>
-    <p>Sep 2024 – Present</p>
-    <p>
-      Designed and supported CI/CD pipelines for telecom applications ensuring controlled deployments and consistent builds. Managed Docker-based deployments and Kubernetes operations including pod monitoring, health checks, and restarts. Supported production and UAT environments with deployment validation through testing. Contributed to UPC go-live validation and improved observability while reducing post-release issues.
-    </p>
-  </div>
+<div class="stat-num">Telecom</div>
+<div class="stat-label">Domain focus</div>
 
-  <div>
-    <h3>Quality Analyst — Warship Overseeing Team Kochi</h3>
-    <p>Dec 2023 – Sep 2024</p>
-    <p>
-      Conducted quality inspections and compliance checks on electrical systems. Verified adherence to safety standards and maintained detailed documentation for audits and regulatory review.
-    </p>
-  </div>
+<div class="stat-num">High</div>
+<div class="stat-label">System reliability</div>
 
-</section>
+<!-- SKILLS FIX -->
+<div class="skill-items">AWS · Linux · Networking (TCP/IP, VPNs, Firewalls)</div>
+<div class="skill-items">REST APIs · Postman · SQL Validation · System Integration</div>
+<div class="skill-items">Python · Bash · SQL · YAML · JSON</div>
+<div class="skill-items">Git · GitHub · Jenkins</div>
+<div class="skill-items">Grafana · Nagios · Monitoring · RCA</div>
 
-<section id="projects">
-  <h2>Projects</h2>
-  <div class="projects-grid">
+<!-- ADD THIS NEW CARD (inside skills grid) -->
+<div class="skill-card">
+  <div class="skill-cat">Containerization</div>
+  <div class="skill-name">Containers & Orchestration</div>
+  <div class="skill-items">Docker · Kubernetes (deployment, scaling, pod monitoring)</div>
+</div>
 
-    <div class="card">
-      <h3>CI/CD Pipeline Implementation</h3>
-      <p>Designed CI/CD pipelines ensuring reliable builds and controlled deployments.</p>
-    </div>
+<!-- EXPERIENCE FIX -->
+<p class="exp-desc">
+Designed and supported CI/CD pipelines for telecom applications, ensuring consistent builds and controlled deployments. Managed Docker-based containerized deployments and Kubernetes operations including pod monitoring, health checks, and restarts. Supported production and UAT environments with deployment validation using smoke, functional, and integration testing. Contributed to UPC production go-live by validating configurations, integrations, and rollback readiness. Improved observability and reduced post-release issues through structured validation.
+</p>
 
-    <div class="card">
-      <h3>Kubernetes Deployment Management</h3>
-      <p>Managed containerized apps using Docker and Kubernetes with monitoring and scaling.</p>
-    </div>
+<!-- TAGS -->
+<span class="tag">Jenkins</span>
+<span class="tag">Docker</span>
+<span class="tag">Kubernetes</span>
+<span class="tag">CI/CD</span>
+<span class="tag">Telecom</span>
 
-    <div class="card">
-      <h3>Production Deployment Validation</h3>
-      <p>Validated deployments using functional and integration testing ensuring stability.</p>
-    </div>
+<!-- SECOND ROLE -->
+<p class="exp-desc">
+Conducted quality inspections and compliance checks on electrical systems and onboard equipment. Verified adherence to safety and operational standards and maintained detailed inspection reports for audits and regulatory review.
+</p>
 
-  </div>
-</section>
+<!-- PROJECTS (REPLACE ALL 3) -->
+<div class="project-title">CI/CD Pipeline Implementation</div>
+<p class="project-desc">
+Designed and supported CI/CD pipelines for telecom applications ensuring reliable builds, controlled deployments, and reduced post-release issues.
+</p>
 
-<section id="contact">
-  <h2>Contact</h2>
-  <p>Email: aakashks0203@gmail.com</p>
-  <p>Phone: +91 7902292113</p>
-  <p>GitHub: Aakash-2025-builds</p>
-  <p>LinkedIn: linkedin.com/in/aakash-ks</p>
-</section>
+<div class="project-title">Kubernetes Deployment Management</div>
+<p class="project-desc">
+Managed containerized applications using Docker and Kubernetes including deployment, scaling, monitoring, and pod health management in production environments.
+</p>
 
-</body>
-</html>
+<div class="project-title">Production Deployment Validation</div>
+<p class="project-desc">
+Validated deployments across UAT and production environments using functional, integration, and smoke testing ensuring release stability and rollback readiness.
+</p>
+
+<!-- REMOVE BLOG SECTION COMPLETELY -->
+
+<!-- CONTACT ADD -->
+<a class="contact-row">
+  <span class="contact-icon">📞</span>
+  <span class="contact-label">Phone</span>
+  <span class="contact-val">+91 7902292113</span>
+</a>
